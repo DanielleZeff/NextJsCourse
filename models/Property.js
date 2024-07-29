@@ -32,14 +32,6 @@ const PropertySchema = new Schema(
         type: String,
       },
     },
-    beds: {
-      type: Number,
-      required: true,
-    },
-    baths: {
-      type: Number,
-      required: true,
-    },
     square_feet: {
       type: Number,
       required: true,
